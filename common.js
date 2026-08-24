@@ -14,6 +14,13 @@ function switchTab(tabId, group) {
   } else {
     scopes = [document];
   }
+  // 保險：若 group 容器內都沒有 .tab-content（nav-only 寫法：group 只放在 .tab-nav、
+  // 面板是它的兄弟節點），退回以整份文件為切換範圍，確保面板一定切得動。
+  // 正常兩容器寫法本來就有面板在 scope 內、不會觸發退回，多分頁頁面也因 id 唯一而不互擾。
+  var hasPanel = Array.prototype.some.call(scopes, function (sc) {
+    return sc.querySelector && sc.querySelector('.tab-content');
+  });
+  if (!hasPanel) scopes = [document];
   scopes.forEach(function (scope) {
     scope.querySelectorAll('.tab-content').forEach(function (el) {
       el.classList.toggle('active', el.id === tabId);
