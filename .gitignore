@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# scratch / logs
+*.log
+*.tmp
+
+# env / secrets
+.env
+.env.*
+
+# editor / OS
+.idea/
+.vscode/
+*~
+
+# 私人行程原始資料（含個人/親子細節）— 只當內容素材，不發佈到公開 repo
+_private_sources/
