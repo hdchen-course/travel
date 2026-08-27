@@ -76,7 +76,7 @@
       '<strong>閱讀須知</strong>：本站為個人自助旅行規劃參考，' +
       '交通班次、票價、營業/開放時間、預約規則等資訊<strong>會隨時異動</strong>，' +
       '出發前務必以各設施/交通業者官方公告為準。旅遊過程中的行程安排、支出與風險由旅行者自行負責。' +
-      '<span class="sd-copyright">© 2026 hdchen-course · 保留所有權利（All Rights Reserved）。' +
+      '<span class="sd-copyright">© 2026 HD Chen · 保留所有權利（All Rights Reserved）。' +
       '本站<strong>原創表達</strong>（章節編排、速查卡與版面設計、行程規劃與全部原創文字）未經著作權人同意，' +
       '不得轉載、改作或作商業利用；票價、時刻與各設施規則等<strong>事實資訊</strong>屬公開事實、不主張獨佔，' +
       '官方引文著作權歸各該權利人。內容部分由 AI 工具輔助生成、由作者主導編輯與查證。' +
